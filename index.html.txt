@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Mi Plan de Estudio PAES</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f5f7fa;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+  }
+  h1 {
+    text-align: center;
+    color: #2c3e50;
+  }
+  .container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 25px;
+  }
+  .section {
+    margin-bottom: 30px;
+  }
+  .section h2 {
+    color: #2980b9;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  li {
+    background: #ecf0f1;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  li span {
+    max-width: 70%;
+  }
+  a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .checkbox {
+    transform: scale(1.3);
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  footer {
+    text-align: center;
+    color: #999;
+    font-size: 0.9em;
+    margin-top: 40px;
+  }
+  /* Colors for sections */
+  .matematicas h2 { border-color: #27ae60; color: #27ae60;}
+  .fisica h2 { border-color: #2980b9; color: #2980b9;}
+  .lenguaje h2 { border-color: #8e44ad; color: #8e44ad;}
+  /* Scrollbar for lists */
+  ul {
+    max-height: 280px;
+    overflow-y: auto;
+  }
+  /* Responsive */
+  @media(max-width:600px){
+    li span {
+      max-width: 60%;
+    }
+  }
+</style>
+</head>
+<body>
+  <h1>🎓 Mi Plan de Estudio PAES 2025</h1>
+  <div class="container">
+
+    <section class="section matematicas">
+      <h2>🧮 Matemáticas M2</h2>
+      <ul id="lista-matematicas">
+        <li>
+          <span>Funciones - PDF Teoría</span> 
+          <a href="https://www.preuniversitariomigueldecervantes.cl/wp-content/uploads/2020/02/Libro-Matem%C3%A1tica.pdf" target="_blank" rel="noopener noreferrer">Ver PDF</a>
+          <input type="checkbox" class="checkbox" />
+        </li>
+        <li>
+          <span>Funciones y Gráficos - Guía PAES</span> 
+          <a href="https://drive.google.com/file/d/1h4YdpAKh8C7kC2cvq1qChhzu2tyK0l5w/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ver PDF</a>
+          <input type="checkbox" class="checkbox" />
+        </li>
+        <li>
+          <span>MateFacil Chile - YouTube</span> 
+          <a href="https://www.youtube.com/@MateFacilChile" target="_blank" rel="noopener noreferrer">Ver Canal</a>
+          <input type="checkbox" class="checkbox" />
+        </li>
+        <li>
+          <span>Math2me - YouTube</span> 
+          <a href="https://www.youtube.com/@math2me" target="_blank" rel="noopener noreferrer">Ver Canal</a>
+          <input type="checkbox" class="checkbox" />
+        </li>
+      </ul>
+    </section>
+
+    <section class="section fisica">
+      <h2>⚛️ Física</h2>
+      <ul id="lista-fisica">
+        <li>
+          <span>Guía Movimiento Rectilíneo y MRUV</span> 
+          <a href="https://fisicaconjuanpa.files.wordpress.com/2014/04/mru-mruv-guia.pdf" target="_blank" rel="noopener noreferrer">Ver PDF</a>
+          <input type="checkbox" class="checkbox" />
+        </li>
+        <li>
+          <span>Física con ejercicios y desarrollo</span> 
+          <a href="https://profesoralejandrosilva.files.wordpress.com/2018/05/guia-mecanica-clasica-2018.pdf" target="_blank" rel="noopener noreferrer">Ver PDF</a>
+          <input type="checkbox" class="checkbox" />
+        </li>
+        <li>
+          <span>Física Fácil PAES - YouTube</span> 
+          <a href="https://www.youtube.com/@FisicaFacilPAES" target="_blank" rel="noopener noreferrer">Ver Canal</a>
+          <input type="checkbox" class="checkbox" />
+        </li>
+        <li>
+          <span>Profe Sergio Morales - YouTube</span> 
+          <a href="https://www.youtube.com/@ProfesorSergioMorales" target="_blank" rel="noopener noreferrer">Ver Canal</a>
+          <input type="checkbox" class="checkbox" />
+        </li>
+      </ul>
+    </section>
+
+    <section class="section lenguaje">
+      <h2>📚 Lenguaje</h2>
+      <ul id="lista-lenguaje">
+        <li>
+          <span>Conectores, Coherencia y Cohesión - PDF</span> 
+          <a href="https://www.preuniversitariomigueldecervantes.cl/wp-content/uploads/2020/03/Libro-Lenguaje-y-comunicaci%C3%B3n.pdf" target="_blank" rel="noopener noreferrer">Ver PDF</a>
+          <input type="checkbox" class="checkbox" />
+        </li>
+        <li>
+          <span>Tutorías Fácil Lenguaje - YouTube</span> 
+          <a href="https://www.youtube.com/@TutoriasFacil" target="_blank" rel="noopener noreferrer">Ver Canal</a>
+          <input type="checkbox" class="checkbox" />
+        </li>
+        <li>
+          <span>Lenguaje PAES Profe Pablo - YouTube</span> 
+          <a href="https://www.youtube.com/@lenguajepaesprofepablo" target="_blank" rel="noopener noreferrer">Ver Canal</a>
+          <input type="checkbox" class="checkbox" />
+        </li>
+        <li>
+          <span>PAES DEMRE Chile - YouTube Oficial</span> 
+          <a href="https://www.youtube.com/@demreuchile" target="_blank" rel="noopener noreferrer">Ver Canal</a>
+          <input type="checkbox" class="checkbox" />
+        </li>
+      </ul>
+    </section>
+
+  </div>
+  <footer>© 2025 Plan de Estudio Personal de Franco Ramírez</footer>
+
+<script>
+  // Guardar checkbox en localStorage para mantener progreso
+  document.querySelectorAll('.checkbox').forEach((checkbox, index) => {
+    // Recuperar estado guardado
+    const saved = localStorage.getItem('checkbox_' + index);
+    if (saved === 'true') checkbox.checked = true;
+
+    // Guardar al cambiar
+    checkbox.addEventListener('change', () => {
+      localStorage.setItem('checkbox_' + index, checkbox.checked);
+    });
+  });
+</script>
+</body>
+</html>
+
